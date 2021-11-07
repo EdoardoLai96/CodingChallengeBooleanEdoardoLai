@@ -1,0 +1,85 @@
+body{
+  width: 1000px;
+  margin: auto;
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+}
+.sfondonero{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 7%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius:20px;
+  padding-bottom: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+header{
+margin: auto;
+}
+nav{
+  text-align: center;
+  line-height: 31px;
+  background-color: #00dd01;
+  margin-top: 0%;
+  vertical-align: middle;
+}
+section *{
+  margin: 2px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 12px;
+  line-height: 17px;
+}
+*{
+  box-sizing: border-box;
+}
+.caricamedia{
+  background-color: orange;
+  height: 18px;
+  width: 30%;
+  border-radius: 5px;
+}
+.caricalunga{
+  background-color: #1AD93D;
+  height: 18px;
+  width: 55%;
+  border-radius: 5px;
+}
+.caricacorta{
+  background-color: #E0465D;
+  height: 18px;
+  width: 15%;
+  border-radius: 5px;
+}
+img{
+  padding-top: 9%;
+  align-content: center;
+  width: 26%;
+  height: auto;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+header > h1{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #00dd01;
+  font-size: 21px;
+  margin-bottom: 0.5%;
+  margin-top: 0.75%;
+}
+section > h3{
+  display: inline-block;
+  margin-top:18px;
+  font-size: 18px;
+}
+button{
+  line-height: 10px;
+  font-size: 9px;
+  margin-top: 0.25%;
+  margin-bottom: 1%;
+  vertical-align: bottom;
+}
